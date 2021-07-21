@@ -433,7 +433,7 @@ body.hidden {
 
 
 /* 본문 */
-#header {position:relative; min-width:320px; width:100%; background: #fff; z-index:9999;}
+#header {position:relative; min-width:320px; width:100%; border-bottom: 1px solid #d6d6d6; background: #fff; z-index:9999;}
 #header.scroll {position:fixed; top:0; left:0;}
 
 .view {opacity: 1 !important; transform:translateY(0) !important;}
@@ -1043,7 +1043,6 @@ body.hidden {
         margin-left:0;
     }
     
-    #header.scroll .header_inner {border-bottom:1px solid #ddd;}
     #header .header_inner { max-width: 1250px; padding:0 25px; height:55px; }
 
     #header .sitemap_wrap {margin-top:0;}
